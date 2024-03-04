@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Kumar Singh</title>
+    <!------Link with css---------->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aditya Kumar Singh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">🧑🏼‍💻 Aditya Kumar Singh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/photo.jpg" alt="Aditya profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Namaste🙏🏻! I'm</p>
+            <h1 class="title">Aditya Kumar Singh <br>
+                From West Bengal,India🇮🇳</h1>
+            <p class="section__text__p2">Frountend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Me
+                </button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/facebook.png" alt="Facebook profile" class="icon"
+                    onclick="location.href='https://facebook.com/profile.php?id=61556349932090'" />
+                <img src="./assets/insta.png" alt="Instagram profile" class="icon"
+                    onclick="location.href='https://www.instagram.com/_____aks15_____/'" />
+                 <img src="./assets/linkedin.png" alt="Linkedin profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/aditya-kumar-singh-a501a3253/'" />
+                <img src="./assets/website png.png" alt="Website profile" class="icon"
+                    onclick="location.href='https://aditya-kumar-singh-153.github.io/my-application/'" />
+            </div>
+
+        </div>
+    </section>
+
+    <!--------Start About Seaction---------->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me 🙋🏻‍♂️</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/photo.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+
+                <div class="text-container">
+                    <p>
+                        Hello, my self Aditya Kumar Singh, a dedicated B.Tech student at Bengal College of Engineering & Technology, is
+                        proficient in Full Stack Web Development. With expertise spanning front-end design and back-end
+                        functionality, he crafts dynamic websites that engage users effectively. Passionate about
+                        creating seamless digital experiences, Aditya leverages his skills to deliver innovative
+                        solutions in the ever-evolving realm of web development.
+                    </p>
+                </div>
+
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Working</h3>
+                        <p> last 4 months <br />Full Stack Web Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Madhyamik-(2019 pass) <br />Diploma-(2022 pass) <br> B-tech from Information Technology-(2025
+                            passing out)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+
+    <!----------Start Contact Seaction---------->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch With Me</p>
+        <h1 class="title">Contact Me 📞</h1>
+        <div class="contact-info-upper-container">
+
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:kumaraditya3827@gmail.com">kumaradityagmail.com</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="./assets/insta.png" alt="Instagram icon" class="icon contact-icon" />
+                <p><a href="https://www.instagram.com/_____aks15_____/">Instagram</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="./assets/facebook.png" alt="Facebook icon" class="icon contact-icon" />
+                <p><a href="https://facebook.com/profile.php?id=61556349932090">Facebook</a></p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!----------Start Footer Seaction-------->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; Aditya Kumar Singh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
